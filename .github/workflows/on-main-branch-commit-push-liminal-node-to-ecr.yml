@@ -35,7 +35,7 @@ jobs:
         uses: Cardinal-Cryptography/github-actions/get-ref-properties@v4
 
       - name: Download node production binary from artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: aleph-node-liminal
           path: target/release/
